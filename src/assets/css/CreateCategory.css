@@ -1,0 +1,79 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__content{
+    padding: 20px;
+    background-color: white;
+    width: 50vw;
+}
+
+.modal__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__form-field{
+    margin-top: 10px;
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    padding: 8px 18px;
+    border: 1px solid #e0e0e0;
+}
+
+.modal__buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.modal__button{
+    margin: 5px 0 5px 0;
+    width: 100px;
+    height: 40px;
+    background-color: #3e9920;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.modal__dropdown{
+    margin-top: 10px;
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    padding: 8px 14px;
+    border: 1px solid #e0e0e0;
+}
+
+.modal__hint{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.modal__food-dropdown, .modal__food-dropdown:hover, .modal__food-dropdown:focus, .modal__food-dropdown:active{
+    width: 100%;
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+    text-align: left;
+}

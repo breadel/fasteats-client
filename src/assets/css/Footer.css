@@ -1,0 +1,105 @@
+footer{
+    background-color: #232323;
+}
+
+.footer__copyright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 810px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.footer__copyright-text{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__logo{
+    padding-top: 58px;
+    margin-bottom: 40px;
+}
+
+.footer__line{
+    border: 0;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+}
+
+.footer__languages{
+    font-family: 'Raleway';
+}
+
+.footer__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 715px;
+    margin-top: 32px;
+}
+
+.footer__column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer__mobile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.footer__mobile-appstore{
+    margin-right: 40px;
+}
+
+.footer__menu-nav{
+    margin-bottom: 23px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__hashtag{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.green{
+    color: #49A144;
+}
+
+.footer__socials{
+    margin-top: 19px;
+}
+
+.footer__languages{
+    background: #3B3B3B;
+    width: 227px;
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.footer__language{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}

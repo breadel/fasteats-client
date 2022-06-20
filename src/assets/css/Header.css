@@ -1,0 +1,82 @@
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72px;
+    background: #FFFFFF;
+    z-index: 2;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo-pic{
+    width: 135px;
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 956px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.header__login{
+    cursor: pointer;
+    width: 78px;
+    height: 40px;
+    margin-top: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D1D1D;
+    margin-right: 16px;
+    outline: 0;
+    text-decoration: 0;
+}
+
+.header__admin{
+    cursor: pointer;
+    width: 108px;
+    height: 40px;
+    margin-top: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D1D1D;
+    margin-right: 16px;
+    outline: 0;
+    text-decoration: 0;
+}
+
+.header__basket-link{
+    margin: 0 auto;
+    height: 72px;
+}
+
+.header__buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.header__location-pic{
+    height: 60px;
+    width: 60px;
+}

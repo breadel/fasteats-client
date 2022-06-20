@@ -1,0 +1,15 @@
+.search-form__filters{
+    display: flex;
+    margin-top: 100px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.restaurants__title{
+    margin-top: 125px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}

@@ -1,0 +1,29 @@
+.restaurants__card{
+    cursor: pointer;
+    width: 308px;
+    height: 366px;
+    margin-bottom: 16px;
+    padding: 0 10px;
+}
+
+.restaurants__card-title{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-top: 21px;
+}
+
+.restaurants__card-menu{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.restaurants__card-time{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D; 
+}

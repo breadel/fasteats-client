@@ -1,0 +1,17 @@
+.search-form__filters-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.search-form__filters-item{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-form__filters-link{
+    text-decoration: none;
+    color: black;
+}
